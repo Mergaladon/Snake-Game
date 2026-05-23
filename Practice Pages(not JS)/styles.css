@@ -1,0 +1,152 @@
+/* My colors:
+   lightblue:  #add8e6
+   soft pink:  #ffc0cb
+   mint:       #98ff98
+*/
+
+/* ===== BACKGROUND COLORS ===== */
+/* Example usage in HTML:
+<p class="bg-orange">Only this one is orange.</p>
+*/
+
+  .bg-blue {
+  background-color: blue;
+}
+
+.bg-green {
+  background-color: green;
+}
+
+/* Color toolbox */
+.blue-bg {
+  background-color: lightblue;
+}
+
+.pink-bg {
+  background-color: pink;
+}
+
+.green-bg {
+  background-color: lightgreen;
+}
+
+.box {
+  background-color: lightblue;
+}
+
+  /* ===== FONT SIZES ===== */
+  h1 {
+    font-size: 70px;
+  }
+
+p {
+    font-size: 20px;
+}
+h2 {
+  font-size: 32px;
+}
+
+
+/* ===== HIGHLIGHT COLORS ===== */
+
+.highlight {
+  color: red;
+}
+.highlight-red {
+  color: red;
+}
+
+.highlight-blue {
+  color: blue;
+}
+
+.highlight-green {
+  color: green;
+}
+#main-title {
+  color: orange;
+}
+
+/* Whatever this box is for. 
+PADDING is space around the text/content. 
+MARGIN is the outside space (air between boxes)
+B is the outline that makes the box edge obvious  */ 
+
+.box {
+  background-color: lightblue;
+  padding: 20px;
+  border: 5px solid red;
+  margin-top: 40px;
+  width: 1000px;
+  height: 1000px;
+}
+
+.box-two {
+  background-color: pink;
+  padding: 40px;
+  margin-top: 20px;
+  border: 3px dashed pink;
+  width: 300px;
+  height: 150px;
+}
+
+div {
+  border: 2px solid red;
+}
+
+span {
+  border: 2px solid blue;
+}
+
+.row-container {
+  display: flex;
+  border: 20px solid orange;
+  padding: 60px;
+  margin-top: 120px;
+  background-color: yellow;
+  justify-content: space-between;
+}
+
+/* Center whole page content */
+.wrapper {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+
+/* Basic page text styling */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+}}
+
+/* Header area */
+.site-header {
+  background-color: #ec4899; /* bright pink */
+  color: white;
+  padding: 20px;
+}
+
+
+/* Nav uses flexbox to space links */
+.main-nav {
+  display: flex;
+  gap: 16px;
+  margin-top: 10px;
+}
+
+/* Main content box */
+.content {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+/* Footer area */
+.site-footer {
+  background-color: #ec4899; /* same bright pink */
+  color: white;
+  padding: 10px 20px;
+  margin-top: 20px;
+  text-align: center;
+}

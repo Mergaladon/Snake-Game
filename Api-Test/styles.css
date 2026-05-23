@@ -1,0 +1,8 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+/* crossed-out completed tasks */
+.done {
+  text-decoration: line-through;
+}
